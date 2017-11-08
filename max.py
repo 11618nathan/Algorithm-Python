@@ -7,3 +7,6 @@ def max_n(n):
         if n[i] > max_first:
             max_first = n[i]
     return max_first
+
+a = [16, 18, 1, 6, 8, 33, 9]
+print(max_n(a))
