@@ -7,6 +7,8 @@ def sequential_search(a, x):
             # 위치 반환
             return i
     
+    # 없을 경우
+    return -1
 
 num = [16, 17, 18, 33]
 
