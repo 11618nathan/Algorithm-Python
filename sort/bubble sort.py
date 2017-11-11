@@ -9,7 +9,9 @@ def bubble_sort(x):
         for i in range(size):
             if x[i] > x[i-1]:
                 swqp(x, i, i+1)
+
     return result
-num = [3, 16, 6, 7, 18, 33]
+
+num = [33, 17]
 
 print(bubble_sort(num))
