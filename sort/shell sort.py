@@ -11,7 +11,7 @@ def gap_insertion_sort(x, start, gap):
             else:
                 break
             i -=gap
-        
+        x[i] = val
 
 def shell_sort(x):
     gap = len(x) // 2
