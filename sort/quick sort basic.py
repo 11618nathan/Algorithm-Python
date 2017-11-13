@@ -11,8 +11,11 @@ def quick_sort_sub(a, start, end):
         if a[j] <= pivot:
             a[i], a[j] = a[j], a[i]
             i += 1
-    a[i], a[end] = a[end], [i]
-
+    a[i], a[end] = a[end], a[i]
+    
+    # 과정
+    print(a)
+    
     quick_sort_sub(a, start, i-1)
     quick_sort_sub(a, i+1, end)
 
