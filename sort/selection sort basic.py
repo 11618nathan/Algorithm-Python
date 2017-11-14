@@ -10,6 +10,9 @@ def selection_sort(a):
                 min_idx = j
         a[i], a[min_idx] = a[min_idx], a[i]
 
+        # 과정
+        print(a)
+
 num = [7, 1, 16, 33, 9, 18]
 
 print(selection_sort(num))
