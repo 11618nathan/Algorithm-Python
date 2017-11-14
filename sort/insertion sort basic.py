@@ -11,6 +11,9 @@ def insertion_sort(a):
             a[j + 1] = a[j]
             j -= 1
         a[j + 1] = key
+        
+        # 과정
+        print(a)
 
 num = [7, 6, 8, 1, 16, 18, 9]
 
