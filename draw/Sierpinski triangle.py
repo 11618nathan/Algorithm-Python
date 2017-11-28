@@ -22,3 +22,7 @@ def Sierpinski_triangle(tri_len):
     t.backward(new_len)
     t.right(60)
 
+t.speed(0)
+Sierpinski_triangle(160)
+t.hideturtle()
+t.done()
