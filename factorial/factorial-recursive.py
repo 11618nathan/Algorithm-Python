@@ -1,7 +1,9 @@
 
-def fact(n):
+def factorial(n):
+    # 1일 경우
     if n <= 1:
         return 1
-    return n * fact(n - 1)
+    # 재귀 함수
+    return n * factorial(n - 1)
 
-print(fact(int(input('입  력: '))))
+print(factorial(int(input('입  력: '))))
