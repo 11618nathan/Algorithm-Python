@@ -1,4 +1,5 @@
 
+# 최댓값 위치
 def find_max(a):
     n = len(a)
     max_idx = 0
@@ -8,6 +9,6 @@ def find_max(a):
             max_idx = i
     return max_idx
 
-x = [16, 18, 1, 33]
+li = [16, 18, 1, 33]
 
 print(find_max(x))
