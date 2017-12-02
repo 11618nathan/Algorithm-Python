@@ -23,7 +23,7 @@ def merge_sort(a):
         if g1[i1] < g2[i2]:
             a[ia] = g1[i1]
             i1 += 1
-            ia +=1
+            ia += 1
         else:
             a[ia] = g2[i2]
             i2 += 1
@@ -38,6 +38,9 @@ def merge_sort(a):
         a[ia] = g2[i2]
         i2 += 1
         ia += 1
+
+    # 과정
+    print(a)
 
 num = [7, 6, 8, 1, 16, 18, 9]
 
