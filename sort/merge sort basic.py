@@ -42,8 +42,7 @@ def merge_sort(a):
     # 과정
     print(a)
 
-num = [7, 6, 8, 1, 16, 18, 9]
 
-merge_sort(num)
+li = [7, 6, 8, 1, 16, 18, 9]
 
-print(num)
+print(merge_sort(li))
