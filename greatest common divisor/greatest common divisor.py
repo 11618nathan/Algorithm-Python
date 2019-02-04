@@ -1,8 +1,8 @@
 
-# 최대공약구
+# 최대공약수
 def gcd(a, b):
 
-    # 최소값 함수수
+    # 최소값 함수
     i = min(a,b)
 
     while True:
